@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-msa-32-java
+    
+server:
+  port: 8761
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://dev.eureka.server:8761/eureka/
+
